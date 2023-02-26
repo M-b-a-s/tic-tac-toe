@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App | tic-tac-toe</title>
+    <link rel="shortcut icon" href="/tic-tac-toe/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Start  page -->
+    <div class="container">
+      <div class="start-page" id="start-page">
+        <h1 class="title">tic-tac-toe</h1>
+        <div class="grid">
+          <div class="box"></div>
+          <div class="box">O</div>
+          <div class="box">X</div>
+          <div class="box">X</div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box">O</div>
+        </div>
+        <h3 class="text" id="text">Choose a letter</h3>
+        <div class="letters">
+          <div class="letter" id="x-letter">X</div>
+          <div class="letter" id="o-letter">O</div>
+        </div>
+        <button class="btn" id="start-btn">start</button>
+      </div>
+      <!-- Start  page -->
+
+      <!-- Game page -->
+      <div class="game-page" id="game-page">
+        <h1 class="title">tic-tac-toe</h1>
+        <div class="grid-game">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+          <h2 class="text">Your score: <span>0</span></h2>
+          <h2 class="text">Computer score: <span>0</span></h2>
+          <div class="game-btns">
+            <button class="btn" id="restart-btn">restart</button>
+            <button class="btn" id="end-btn">End</button>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Game page -->
+
+      
+    <script src="app.js"></script>
+  </body>
+</html>
